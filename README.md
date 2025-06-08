@@ -42,7 +42,7 @@ The repository includes implementations of the following algorithms:
 To use the code in this repository, clone it to your local machine using the following command:
 
 ```bash
-git clone https://github.com/yourusername/cryptography.git
+git clone https://github.com/UzitheI/CryptoGraphy.git
 ```
 
 ## Usage
