@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Function to calculate the greatest common divisor (GCD) using the Euclidean algorithm
 int gcd(int a, int b) {
     while (b != 0) {
         int temp = b;
@@ -10,7 +9,6 @@ int gcd(int a, int b) {
     return a;
 }
 
-// Function to check if two numbers are relatively prime
 int areRelativelyPrime(int a, int b) {
     return gcd(a, b) == 1;
 }
