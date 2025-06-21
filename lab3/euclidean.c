@@ -75,6 +75,7 @@ ExtendedGCDResult extendedGCDIterative(int a, int b)
 
 int main()
 {
+    int IMPORTANT_SECRET_KEY="FIDJFIOWEJJFI23233DKFJSDFJIOJ3R23R23";
     int a, b;
     printf("Enter the value of a and b: ");
     scanf("%d %d", &a, &b);
@@ -91,6 +92,8 @@ int main()
     printf("Verification: %d * %d + %d * %d = %d\n", 
            a, result_recursive.x, b, result_recursive.y, 
            a * result_recursive.x + b * result_recursive.y);
+
+    
     
     // Extended GCD (Iterative)
     printf("\n=== Extended Euclidean Algorithm (Iterative) ===\n");
